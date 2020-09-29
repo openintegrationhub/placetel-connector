@@ -201,22 +201,6 @@ describe('Transformations', () => {
             value: '@jdoe',
           },
         ],
-        addresses: [
-          {
-            city: 'Homecity',
-            street: 'Homestreet',
-            streetNumber: '21',
-          },
-          {
-            city: 'Workcity',
-            zipCode: '12345',
-            street: 'Workstreet',
-            streetNumber: '42',
-            region: 'Workregion',
-            country: 'Workcountry',
-            description: 'work',
-          },
-        ],
       },
       meta: {
         recordUid: '12345',
