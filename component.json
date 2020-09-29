@@ -10,6 +10,7 @@
         "required": true,
         "viewClass": "TextFieldView",
         "placeholder": "46u08jvqw93rjsddafidpirs"
+      }
     }
   },
   "triggers": {
@@ -17,7 +18,7 @@
       "title": "Fetch Contacts",
       "description": "Get Placetel contacts",
       "type": "polling",
-      "main": "./lib/triggers/getContacts.js",
+      "main": "./lib/triggers/getContacts.js"
     }
   },
   "actions": {
@@ -25,7 +26,7 @@
       "title": "Upsert a contact",
       "description": "Get Placetel contacts",
       "type": "polling",
-      "main": "./lib/actions/upsertContact.js",
+      "main": "./lib/actions/upsertContact.js"
     }
   }
 }
