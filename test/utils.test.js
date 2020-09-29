@@ -128,6 +128,9 @@ describe('Get Contacts', () => {
       },
     })
       .get('/')
+      .query({
+        per_page: 1000,
+      })
       .reply(200, [
         { id: 1, updated_at: '2018-08-16T11:42:47.000+02:00' },
         { id: 2, updated_at: '2018-08-17T11:42:47.000+02:00' },
