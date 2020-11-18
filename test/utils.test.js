@@ -44,7 +44,7 @@ describe('Upsert Contact', () => {
         phone: '13579',
         mobile: '08642',
       },
-      meta: {
+      metadata: {
         recordUid: undefined,
         oihUid: 'TestOihUid',
       },
@@ -56,8 +56,8 @@ describe('Upsert Contact', () => {
 
     const response = await upsertContact(msg, cfg);
 
-    expect(response.meta.recordUid).to.equal('12345');
-    expect(response.meta.oihUid).to.equal('TestOihUid');
+    expect(response.metadata.recordUid).to.equal('12345');
+    expect(response.metadata.oihUid).to.equal('TestOihUid');
   });
 
   it('should update a contact if one is found', async () => {
@@ -103,7 +103,7 @@ describe('Upsert Contact', () => {
         phone: '13579',
         mobile: '08642',
       },
-      meta: {
+      metadata: {
         recordUid: '54321',
         oihUid: 'AnotherTestOihUid',
       },
@@ -115,8 +115,8 @@ describe('Upsert Contact', () => {
 
     const response = await upsertContact(msg, cfg);
 
-    expect(response.meta.recordUid).to.equal('54321');
-    expect(response.meta.oihUid).to.equal('AnotherTestOihUid');
+    expect(response.metadata.recordUid).to.equal('54321');
+    expect(response.metadata.oihUid).to.equal('AnotherTestOihUid');
   });
 });
 
