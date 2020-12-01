@@ -1,7 +1,7 @@
 {
   "name": "@openintegrationhub/placetel-connector",
-  "version": "0.0.1",
-  "description": "OIH Connector for Twitter",
+  "version": "0.0.2",
+  "description": "OIH Connector for Placetel",
   "homepage": "https://openintegrationhub.com/",
   "author": {
     "name": "Wice GmbH",
