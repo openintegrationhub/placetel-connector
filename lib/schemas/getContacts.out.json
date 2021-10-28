@@ -1,0 +1,102 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number",
+        "example": 1
+      },
+      "user_id": {
+        "type": "number",
+        "example": 1
+      },
+      "speeddial": {
+        "type": "number",
+        "example": 1
+      },
+      "first_name": {
+        "type": "string",
+        "example": "Ada"
+      },
+      "last_name": {
+        "type": "string",
+        "example": "Lovelace"
+      },
+      "email": {
+        "type": "string",
+        "example": "AdaLovelace@mail.com"
+      },
+      "email_work": {
+        "type": "string",
+        "example": "AdaLovelace@mail.com"
+      },
+      "company": {
+        "type": "string",
+        "example": "AdaLovelaceOrg"
+      },
+      "address": {
+        "type": "string",
+        "example": "street2"
+      },
+      "address_work": {
+        "type": "string",
+        "example": "street3"
+      },
+      "phone_work": {
+        "type": "string",
+        "example": "15800581"
+      },
+      "mobile_work": {
+        "type": "string",
+        "example": "15800581"
+      },
+      "phone": {
+        "type": "string",
+        "example": "15800581"
+      },
+      "mobile": {
+        "type": "string",
+        "example": "15800581"
+      },
+      "fax": {
+        "type": "string",
+        "example": "158005815444"
+      },
+      "fax_work": {
+        "type": "string",
+        "example": "158005815444"
+      },
+      "facebook_url": {
+        "type": "string",
+        "example": "AdaLovelace.com"
+      },
+      "linkedin_url": {
+        "type": "string",
+        "example": "AdaLovelace.com"
+      },
+      "xing_url": {
+        "type": "string",
+        "example": "AdaLovelace.com"
+      },
+      "twitter_account": {
+        "type": "string",
+        "example": "AdaLovelace.com"
+      },
+      "blocked": {
+        "type": "boolean",
+        "example": true
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date",
+        "example": "2018-08-16T11:42:47.000+02:00"
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date",
+        "example": "2018-08-16T11:42:47.000+02:00"
+      }
+    }
+  }
+}

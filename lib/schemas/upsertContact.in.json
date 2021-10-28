@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "speeddial": {
+      "type": "string",
+      "example": "1"
+    },
+    "first_name": {
+      "type": "string",
+      "example": "Ada"
+    },
+    "last_name": {
+      "type": "string",
+      "example": "Lovelace"
+    },
+    "email": {
+      "type": "string",
+      "example": "AdaLovelace@mail.com"
+    },
+    "email_work": {
+      "type": "string",
+      "example": "AdaLovelace@mail.com"
+    },
+    "company": {
+      "type": "string",
+      "example": "AdaLovelaceOrg"
+    },
+    "address": {
+      "type": "string",
+      "example": "street2"
+    },
+    "address_work": {
+      "type": "string",
+      "example": "street3"
+    },
+    "phone_work": {
+      "type": "string",
+      "example": "15800581"
+    },
+    "mobile_work": {
+      "type": "string",
+      "example": "15800581"
+    },
+    "phone": {
+      "type": "string",
+      "example": "15800581"
+    },
+    "mobile": {
+      "type": "string",
+      "example": "15800581"
+    },
+    "fax": {
+      "type": "string",
+      "example": "158005815444"
+    },
+    "fax_work": {
+      "type": "string",
+      "example": "158005815444"
+    },
+    "facebook_url": {
+      "type": "string",
+      "example": "AdaLovelace.com"
+    },
+    "linkedin_url": {
+      "type": "string",
+      "example": "AdaLovelace.com"
+    },
+    "xing_url": {
+      "type": "string",
+      "example": "AdaLovelace.com"
+    },
+    "twitter_account": {
+      "type": "string",
+      "example": "AdaLovelace.com"
+    }
+  }
+}
